@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        header img {
+            height: 80px;
+            margin-left: 40px;
+        }
+
+        body {
+        }
+
+        header {
+            background-color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+        }
+
+        header * {
+            display: inline;
+        }
+
+        header li {
+            margin: 20px;
+        }
+
+        header li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        header li a:hover {
+            color: #ff781f;
+        }
+
+        .dropbtn img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .dropbtn {
+            margin-left: 100px;
+            background-color: white;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: white;
+            color: #ff781f;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo.jpg" alt="SND" />
+        <nav>
+            <ul>
+                <li><a href="Vaibhavi.html">About Us</a></li>
+                <li><a href="Campus.html">Catalysts</a></li>
+                <li><a href="Admissions.html">Admissions</a></li>
+                <li><a href="Academics.html">Academics</a></li>
+                <li><a href="Arts.html">Arts</a></li>
+                <li><a href="Atheletics.html">Athletics</a></li>
+                <li><a href="Student Life.html">Student Life</a></li>
+                <li><a href="Support Us.html">Support Us</a></li>
+            </ul>
+        </nav>
+        <div class="dropdown">
+            <button class="dropbtn"> <img src="grid.png" /></button>
+            <div class="dropdown-content">
+                <a href="login.aspx">Login</a>
+            </div>
+        </div>
+    </header>
+    <div class="album">
+        <div class="responsive-container-block bg">
+            <div class="responsive-container-block img-cont">
+                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.4.svg">
+                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.5.svg">
+                <img class="img img-last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.6.svg">
+            </div>
+            <div class="responsive-container-block img-cont">
+                <img class="img img-big" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.11.svg">
+                <img class="img img-big img-last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.10.svg">
+            </div>
+            <div class="responsive-container-block img-cont">
+                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.7.svg">
+                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.8.svg">
+                <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.9.svg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
